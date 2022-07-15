@@ -29,10 +29,13 @@ html {
     display: grid;
     place-items: center;
   }
+  .title_container {
+    width: 300px;
+  }
   .title {
     font-size: var(--lg);
     font-weight: 700;
-    margin-bottom: 4px;
+    text-align: start;
   }
   .change-pass {
     display: grid;
@@ -42,7 +45,14 @@ html {
   .form {
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
   .label {
     font-size: var(--sm);
     font-weight: 700;
